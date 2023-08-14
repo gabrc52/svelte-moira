@@ -94,14 +94,12 @@
 					>
 				</div>
 
-				<button
+				<a
 					class="btn btn-success me-2"
 					type="button"
 					id="button-searchlist"
-					on:click={() => {
-						goto('https://listmaker.mit.edu/lc');
-					}}>Create a New List</button
-				>
+					href="https://listmaker.mit.edu/lc"
+					target="_blank">Create a New List</a>
 
 				<button
 					type="button"
